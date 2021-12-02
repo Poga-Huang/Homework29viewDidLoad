@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D65FE8642758601400DEFE4E /* CIFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE8632758601400DEFE4E /* CIFilterViewController.swift */; };
+		D664D050275876A4003D23F8 /* bensound-creativeminds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D664D04F275876A4003D23F8 /* bensound-creativeminds.mp3 */; };
+		D664D052275876C0003D23F8 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664D051275876C0003D23F8 /* MusicViewController.swift */; };
+		D664D0562758885C003D23F8 /* ExclusionpathsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664D0552758885C003D23F8 /* ExclusionpathsViewController.swift */; };
 		D677D78427575C8A00B7671D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677D78327575C8A00B7671D /* AppDelegate.swift */; };
 		D677D78627575C8A00B7671D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677D78527575C8A00B7671D /* SceneDelegate.swift */; };
 		D677D78827575C8A00B7671D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677D78727575C8A00B7671D /* ViewController.swift */; };
 		D677D78B27575C8A00B7671D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D677D78927575C8A00B7671D /* Main.storyboard */; };
 		D677D78D27575C8F00B7671D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D677D78C27575C8F00B7671D /* Assets.xcassets */; };
 		D677D79027575C8F00B7671D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D677D78E27575C8F00B7671D /* LaunchScreen.storyboard */; };
+		D677D79A2757B93000B7671D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677D7992757B93000B7671D /* ThirdViewController.swift */; };
+		D677D79C27584E0F00B7671D /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677D79B27584E0F00B7671D /* ChartViewController.swift */; };
+		D677D79E275856B500B7671D /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677D79D275856B500B7671D /* GifViewController.swift */; };
+		D677D7A027585C1E00B7671D /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = D677D79F27585C1E00B7671D /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D65FE8632758601400DEFE4E /* CIFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterViewController.swift; sourceTree = "<group>"; };
+		D664D04F275876A4003D23F8 /* bensound-creativeminds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-creativeminds.mp3"; sourceTree = "<group>"; };
+		D664D051275876C0003D23F8 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		D664D0552758885C003D23F8 /* ExclusionpathsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusionpathsViewController.swift; sourceTree = "<group>"; };
 		D677D78027575C8900B7671D /* Homework29viewDidLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework29viewDidLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D677D78327575C8A00B7671D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D677D78527575C8A00B7671D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,10 @@
 		D677D78C27575C8F00B7671D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D677D78F27575C8F00B7671D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D677D79127575C8F00B7671D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D677D7992757B93000B7671D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		D677D79B27584E0F00B7671D /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		D677D79D275856B500B7671D /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
+		D677D79F27585C1E00B7671D /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +75,18 @@
 				D677D78327575C8A00B7671D /* AppDelegate.swift */,
 				D677D78527575C8A00B7671D /* SceneDelegate.swift */,
 				D677D78727575C8A00B7671D /* ViewController.swift */,
+				D677D79F27585C1E00B7671D /* MyParticle.sks */,
+				D677D7992757B93000B7671D /* ThirdViewController.swift */,
+				D677D79B27584E0F00B7671D /* ChartViewController.swift */,
+				D677D79D275856B500B7671D /* GifViewController.swift */,
+				D65FE8632758601400DEFE4E /* CIFilterViewController.swift */,
+				D664D051275876C0003D23F8 /* MusicViewController.swift */,
+				D664D0552758885C003D23F8 /* ExclusionpathsViewController.swift */,
 				D677D78927575C8A00B7671D /* Main.storyboard */,
 				D677D78C27575C8F00B7671D /* Assets.xcassets */,
 				D677D78E27575C8F00B7671D /* LaunchScreen.storyboard */,
 				D677D79127575C8F00B7671D /* Info.plist */,
+				D664D04F275876A4003D23F8 /* bensound-creativeminds.mp3 */,
 			);
 			path = Homework29viewDidLoad;
 			sourceTree = "<group>";
@@ -127,7 +151,9 @@
 			files = (
 				D677D79027575C8F00B7671D /* LaunchScreen.storyboard in Resources */,
 				D677D78D27575C8F00B7671D /* Assets.xcassets in Resources */,
+				D664D050275876A4003D23F8 /* bensound-creativeminds.mp3 in Resources */,
 				D677D78B27575C8A00B7671D /* Main.storyboard in Resources */,
+				D677D7A027585C1E00B7671D /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65FE8642758601400DEFE4E /* CIFilterViewController.swift in Sources */,
 				D677D78827575C8A00B7671D /* ViewController.swift in Sources */,
+				D677D79A2757B93000B7671D /* ThirdViewController.swift in Sources */,
 				D677D78427575C8A00B7671D /* AppDelegate.swift in Sources */,
+				D664D052275876C0003D23F8 /* MusicViewController.swift in Sources */,
 				D677D78627575C8A00B7671D /* SceneDelegate.swift in Sources */,
+				D677D79C27584E0F00B7671D /* ChartViewController.swift in Sources */,
+				D664D0562758885C003D23F8 /* ExclusionpathsViewController.swift in Sources */,
+				D677D79E275856B500B7671D /* GifViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
